@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOOK</title>
+    <link rel="stylesheet" href="css/home.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__top">
+          <div class="container__header nav__top-child">
+            <div class="nav__top-left">
+              <div class="nav__top-img">
+                <img src="./assets/icons/facebook-header.svg" alt="facebook" />
+                <img src="./assets/icons/twitter-header.svg" alt="twitter" />
+                <img src="./assets/icons/youtube-header.svg" alt="youtube" />
+                <img
+                  src="./assets/icons/instagram-header.svg"
+                  alt="instagram"
+                />
+              </div>
+              <div class="nav__top-phone">
+                <img src="./assets/icons/phone.svg" alt="" />
+                <a href="#">(+123)4567890</a>
+              </div>
+            </div>
+            <div class="nav__top-right">
+              <span>USD $</span>
+              <div class="nav__right">
+                <img src="./assets/icons/usa-flag.svg" alt="us-flag" />
+                <p>English</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav__bottom">
+          <div class="container__header navbar">
+            <img src="/assets/icons/logo.svg" alt="logo" />
+            <ul class="nav__bottom-list">
+              <li class="nav__bottom-item">
+                <a href="" class="nav__bottom-link">HOME</a>
+              </li>
+              <li class="nav__bottom-item">
+                <a href="" class="nav__bottom-link">SHOP</a>
+              </li>
+              <li class="nav__bottom-item">
+                <a href="" class="nav__bottom-link">PAGES</a>
+              </li>
+              <li class="nav__bottom-item">
+                <a href="" class="nav__bottom-link">BLOG</a>
+              </li>
+              <li class="nav__bottom-item">
+                <a href="" class="nav__bottom-link">CONTACT US</a>
+              </li>
+            </ul>
+            <div class="icon">
+              <a href="" class="search"
+                ><img src="./assets/icons/search.svg" alt="search"
+              /></a>
+              <a href="./pages/wishlist.html" class="saved"
+                ><img src="./assets/icons/favourite.svg" alt="likeIcon"
+              /></a>
+              <a href="./pages/cart.html" class="order"
+                ><img src="./assets/icons/bag.svg" alt="bagIcon"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./assets/images/kistochkaopt.jpg" />
+            <div class="text1">
+              <h3>Face Makeup Brush</h3>
+              <h1>Skincare Brush Set</h1>
+              <p>Sale 30% Off</p>
+              <a href="#">Shop now</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/images/pic2.jpg" />
+            <div class="text2">
+              <h3>Face Makeup Brush</h3>
+              <h1>Skincare Brush Set</h1>
+              <p>Sale 30% Off</p>
+              <a href="#">Shop now</a>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/images/pic3 (1).jpg" />
+            <div class="text3">
+              <h3>Face Makeup Brush</h3>
+              <h1>Skincare Brush Set</h1>
+              <p>Sale 30% Off</p>
+              <a href="#">Shop now</a>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="service">
+        <div class="container__main">
+          <div class="service__img">
+            <img src="/assets/images/service.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="sale">
+        <div class="container__main">
+          <div class="sale__img">
+            <div class="img1">
+              <img src="/assets/images/sale1.png" alt="" />
+            </div>
+            <div class="img2">
+              <img src="/assets/images/sale2.png" alt="" />
+            </div>
+            <div class="img3">
+              <img src="/assets/images/sale3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products__sec">
+        <div class="container__main">
+          <div class="products__title">
+            <h2>Our products</h2>
+            <img src="./assets/icons/line.svg" alt="line" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perspiciatis, culpa?
+            </p>
+          </div>
+          <ul class="tab">
+            <li class="active">new products</li>
+            <li>onsale</li>
+            <li>upcoming products</li>
+          </ul>
+          <div class="products"></div>
+        </div>
+      </section>
+      <section class="products__img">
+        <div class="container__main">
+          <img src="./assets/images/5.jpg (1).png" alt="beauty-product" />
+          <img src="./assets/images/6.jpg (1).png" alt="beauty-product" />
+          <img src="./assets/images/4.jpg (1).png" alt="beauty-product " />
+        </div>
+      </section>
+      <section class="new__products-sec">
+        <div class="container__main">
+          <div class="new__products-title">
+            <h2>New Arrival products</h2>
+            <img src="./assets/icons/line.svg" alt="line" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos, repellat.
+            </p>
+          </div>
+          <div class="new__products"></div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container__main">
+          <div class="blogs__head">
+            <h2>from our Latest Blogs</h2>
+            <img src="./assets/icons/line.svg" alt="line" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos, repellat.
+            </p>
+          </div>
+          <div class="blogs">
+            <div class="blogs__card">
+              <img src="./assets/images/blog1.png" alt="blogcard" />
+              <h4>Fashion</h4>
+              <div class="blog__title">
+                <h3>This is first Post For Blog</h3>
+              </div>
+              <div class="content">
+                <p>Posted by <span>HasTech</span> 12TH Nov 2023</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <img src="./assets/images/blog2.png" alt="blogcard" />
+              <h4>Fashion</h4>
+              <div class="blog__title">
+                <h3>This is first Post For Blog</h3>
+              </div>
+              <div class="content">
+                <p>Posted by <span>HasTech</span> 12TH Nov 2023</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <img src="./assets/images/blog3.png" alt="blogcard" />
+              <h4>Fashion</h4>
+              <div class="blog__title">
+                <h3>This is first Post For Blog</h3>
+              </div>
+              <div class="content">
+                <p>Posted by <span>HasTech</span> 12TH Nov 2023</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <img src="./assets/images/blog4.png" alt="blogcard" />
+              <h4>Fashion</h4>
+              <div class="blog__title">
+                <h3>This is first Post For Blog</h3>
+              </div>
+              <div class="content">
+                <p>Posted by <span>HasTech</span> 12TH Nov 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container__main">
+          <div class="brands">
+            <img src="./assets/icons/brend1.svg" alt="brand" />
+            <img src="./assets/icons/brend2.svg" alt="brand" />
+            <img src="./assets/icons/brend3.svg" alt="brand" />
+            <img src="./assets/icons/brend4.svg" alt="brand" />
+            <img src="./assets/icons/brend5.svg" alt="brand" />
+            <img src="./assets/icons/brend2.svg" alt="brand" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container__header">
+          <div class="footer__top">
+            <div class="about__us">
+              <img src="/assets/icons/logo.svg" alt="logo" />
+              <p>
+                We are a team of professional designers and developers that
+                create high quality wordpress plugins, Html, React Template.
+              </p>
+              <div class="about__us-logo">
+                <img
+                  src="./assets/icons/instagram-footer.svg"
+                  alt="instagram-icon"
+                />
+                <img
+                  src="./assets/icons/youtube-footer.svg"
+                  alt="youtube-icon"
+                />
+                <img
+                  src="./assets/icons/twitter-footer.svg"
+                  alt="twitter-icon"
+                />
+                <img
+                  src="./assets/icons/facebook-footer.svg"
+                  alt="facebook-icon"
+                />
+              </div>
+            </div>
+            <div class="information">
+              <h4>Information</h4>
+              <img src="./assets/icons/line-footer.svg" alt="link" />
+              <ul class="information-list">
+                <li class="information-item">
+                  <a href="" class="information-link">About us</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Payment</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Contact us</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Stores</a>
+                </li>
+              </ul>
+            </div>
+            <div class="social">
+              <h4>Social Links</h4>
+              <img src="/assets/icons/line-footer.svg" alt="" />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="" class="social-link">New products</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">Best sales</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">Login</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">My account</a>
+                </li>
+              </ul>
+            </div>
+            <div class="newslater">
+              <h4>Newsletter</h4>
+              <img src="./assets/icons/line-footer.svg" alt="" />
+              <p>
+                Subcribe to the TheFace mailing list to receive update on mnew
+                arrivals, special offers and other discount information.
+              </p>
+              <form action="email">
+                <input type="email" placeholder="Your email adress" />
+                <button class="footer__btn"><a href="#">Sign Up</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container__header">
+          <div class="footer__bottom-content">
+            <div class="footer__left">
+              <p>Copyright ©<span>HasThemes.</span>All Rights Reserved</p>
+            </div>
+            <div class="footer__right">
+              <img src="./assets/images/pay-card.png" alt="pay-card" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

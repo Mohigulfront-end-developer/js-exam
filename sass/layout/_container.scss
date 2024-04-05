@@ -1,0 +1,14 @@
+@use "../utils/functions" as func;
+
+.container__header {
+    max-width: func.containerHeader();
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container__main {
+    max-width: func.containerMain();
+    margin: 0 auto;
+    padding: 0 20px;
+
+}

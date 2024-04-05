@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CartList</title>
+    <link rel="stylesheet" href="../css/cart.min.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__top">
+        <div class="container__header nav__top-child">
+          <div class="nav__top-left">
+            <div class="nav__top-img">
+              <img src="../assets/icons/facebook-header.svg" alt="facebook" />
+              <img src="../assets/icons/twitter-header.svg" alt="twitter" />
+              <img src="../assets/icons/youtube-header.svg" alt="youtube" />
+              <img src="../assets/icons/instagram-header.svg" alt="instagram" />
+            </div>
+            <div class="nav__top-phone">
+              <img src="../assets/icons/phone.svg" alt="" />
+              <a href="#">(+123)4567890</a>
+            </div>
+          </div>
+          <div class="nav__top-right">
+            <span>USD $</span>
+            <div class="nav__right">
+              <img src="../assets/icons/usa-flag.svg" alt="us-flag" />
+              <p>English</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav__bottom">
+        <div class="container__header navbar">
+          <img src="/assets/icons/logo.svg" alt="logo" />
+          <ul class="nav__bottom-list">
+            <li class="nav__bottom-item">
+              <a href="" class="nav__bottom-link">HOME</a>
+            </li>
+            <li class="nav__bottom-item">
+              <a href="" class="nav__bottom-link">SHOP</a>
+            </li>
+            <li class="nav__bottom-item">
+              <a href="" class="nav__bottom-link">PAGES</a>
+            </li>
+            <li class="nav__bottom-item">
+              <a href="" class="nav__bottom-link">BLOG</a>
+            </li>
+            <li class="nav__bottom-item">
+              <a href="" class="nav__bottom-link">CONTACT US</a>
+            </li>
+          </ul>
+          <div class="icon">
+            <a href="" class="search"
+              ><img src="/assets/icons/search.svg" alt="search"
+            /></a>
+            <a href="/pages/wishlist.html" class="saved"
+              ><img src="/assets/icons/favourite.svg" alt="likeIcon"
+            /></a>
+            <a href="/pages/cart.html" class="order"
+              ><img src="/assets/icons/bag.svg" alt="bagIcon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <h2>Cart</h2>
+      <img src="../assets/icons/line.svg" alt="" />
+      <ul class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#" style="color: #5a5ac9">Cart</a></li>
+      </ul>
+    </div>
+    <main>
+      <div class="container__header">
+        <div class="card__list-title">
+          <h1>Your cart items</h1>
+        </div>
+        <section id="card" class="sectoin-p1">
+          <table width="100%">
+            <thead>
+              <tr>
+                <td>Product Image</td>
+                <td>Product Name</td>
+                <td>Stock Status</td>
+                <td>Qty</td>
+                <td>Price</td>
+                <td>action</td>
+                <td>Checkout</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="../assets/images/card2.png" alt="" /></td>
+                <td>Water and Wind Resistant cream</td>
+                <td>
+                  <span
+                    style="
+                      background-color: #5a5ac9;
+                      border-radius: 6px;
+                      color: white;
+                      padding: 5px;
+                    "
+                    >In Stock</span
+                  >
+                </td>
+                <td><input type="number" value="1" /></td>
+                <td>$38.24</td>
+                <td>
+                  <a href="#"
+                    ><i class="far fa-times-circle"
+                      ><svg
+                        width="13"
+                        height="15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.39 13.315c0 .738.575 1.312 1.313 1.312h7.875c.711 0 1.313-.574 1.313-1.312V4.127H1.39v9.188Zm7.438-7a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm8.75-4.813H9.047l-.274-.492C8.664.791 8.445.627 8.2.627H5.055c-.246 0-.465.164-.575.383l-.246.492H.954a.45.45 0 0 0-.438.438v.875c0 .246.191.437.437.437h11.375a.45.45 0 0 0 .438-.437V1.94a.47.47 0 0 0-.438-.438Z"
+                          fill="#212529"
+                        /></svg></i
+                  ></a>
+                </td>
+                <td>
+                  <button
+                    style="
+                      padding: 16px 30px;
+                      color: #fff;
+                      background-color: #111;
+                    "
+                  >
+                    Add to card
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="../assets/images/card1.png" alt="" /></td>
+                <td>Water and Wind Resistant cream</td>
+                <td>
+                  <span
+                    style="
+                      background-color: #5a5ac9;
+                      border-radius: 6px;
+                      color: white;
+                      padding: 5px;
+                    "
+                    >In Stock</span
+                  >
+                </td>
+                <td><input type="number" value="1" /></td>
+                <td>$38.24</td>
+                <td>
+                  <a href="#"
+                    ><i class="far fa-times-circle"
+                      ><svg
+                        width="13"
+                        height="15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.39 13.315c0 .738.575 1.312 1.313 1.312h7.875c.711 0 1.313-.574 1.313-1.312V4.127H1.39v9.188Zm7.438-7a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm8.75-4.813H9.047l-.274-.492C8.664.791 8.445.627 8.2.627H5.055c-.246 0-.465.164-.575.383l-.246.492H.954a.45.45 0 0 0-.438.438v.875c0 .246.191.437.437.437h11.375a.45.45 0 0 0 .438-.437V1.94a.47.47 0 0 0-.438-.438Z"
+                          fill="#212529"
+                        /></svg></i
+                  ></a>
+                </td>
+                <td>
+                  <button
+                    style="
+                      padding: 16px 30px;
+                      color: #fff;
+                      background-color: #111;
+                    "
+                  >
+                    Add to card
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="../assets/images/card3.png" alt="" /></td>
+                <td>Water and Wind Resistant cream</td>
+                <td>
+                  <span
+                    style="
+                      background-color: #5a5ac9;
+                      border-radius: 6px;
+                      color: white;
+                      padding: 5px;
+                    "
+                    >In Stock</span
+                  >
+                </td>
+                <td><input type="number" value="1" /></td>
+                <td>$38.24</td>
+                <td>
+                  <a href="#"
+                    ><i class="far fa-times-circle"
+                      ><svg
+                        width="13"
+                        height="15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.39 13.315c0 .738.575 1.312 1.313 1.312h7.875c.711 0 1.313-.574 1.313-1.312V4.127H1.39v9.188Zm7.438-7a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm-2.625 0a.45.45 0 0 1 .438-.438.47.47 0 0 1 .437.438v6.125a.45.45 0 0 1-.437.437.432.432 0 0 1-.438-.437V6.315Zm8.75-4.813H9.047l-.274-.492C8.664.791 8.445.627 8.2.627H5.055c-.246 0-.465.164-.575.383l-.246.492H.954a.45.45 0 0 0-.438.438v.875c0 .246.191.437.437.437h11.375a.45.45 0 0 0 .438-.437V1.94a.47.47 0 0 0-.438-.438Z"
+                          fill="#212529"
+                        /></svg></i
+                  ></a>
+                </td>
+                <td>
+                  <button
+                    style="
+                      padding: 16px 30px;
+                      color: #fff;
+                      background-color: #111;
+                    "
+                  >
+                    Add to card
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="card__add section-p1">
+          <div id="coupon">
+            <h3>Discount coupon Code</h3>
+            <div>
+              <input type="text" placeholder="coupon Code" />
+              <button class="normal">Apply Code</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container__header">
+          <div class="footer__top">
+            <div class="about__us">
+              <img src="/assets/icons/logo.svg" alt="logo" />
+              <p>
+                We are a team of professional designers and developers that
+                create high quality wordpress plugins, Html, React Template.
+              </p>
+              <div class="about__us-logo">
+                <img
+                  src="/assets/icons/instagram-footer.svg"
+                  alt="instagram-icon"
+                />
+                <img
+                  src="/assets/icons/youtube-footer.svg"
+                  alt="youtube-icon"
+                />
+                <img
+                  src="/assets/icons/twitter-footer.svg"
+                  alt="twitter-icon"
+                />
+                <img
+                  src="/assets/icons/facebook-footer.svg"
+                  alt="facebook-icon"
+                />
+              </div>
+            </div>
+            <div class="information">
+              <h4>Information</h4>
+              <img src="/assets/icons/line-footer.svg" alt="link" />
+              <ul class="information-list">
+                <li class="information-item">
+                  <a href="" class="information-link">About us</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Payment</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Contact us</a>
+                </li>
+                <li class="information-item">
+                  <a href="" class="information-link">Stores</a>
+                </li>
+              </ul>
+            </div>
+            <div class="social">
+              <h4>Social Links</h4>
+              <img src="/assets/icons/line-footer.svg" alt="" />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="" class="social-link">New products</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">Best sales</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">Login</a>
+                </li>
+                <li class="social-item">
+                  <a href="" class="social-link">My account</a>
+                </li>
+              </ul>
+            </div>
+            <div class="newslater">
+              <h4>Newsletter</h4>
+              <img src="/assets/icons/line-footer.svg" alt="" />
+              <p>
+                Subcribe to the TheFace mailing list to receive update on mnew
+                arrivals, special offers and other discount information.
+              </p>
+              <form action="email">
+                <input type="email" placeholder="Your email adress" />
+                <button class="footer__btn"><a href="#">Sign Up</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container__header">
+          <div class="footer__bottom-content">
+            <div class="footer__left">
+              <p>Copyright ©<span>HasThemes.</span>All Rights Reserved</p>
+            </div>
+            <div class="footer__right">
+              <img src="/assets/images/pay-card.png" alt="pay-card" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

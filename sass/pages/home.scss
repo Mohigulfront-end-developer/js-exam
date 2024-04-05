@@ -1,0 +1,210 @@
+@use "../global";
+@use "../components/carousel";
+@use "../components/apptabs";
+@use "../utils/mixin" as mxn;
+
+.service__img {
+  margin: 90px 0;
+  padding: 80px 0;
+  img {
+    width: 100%;
+  }
+}
+
+.sale {
+  &__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 370px;
+    img {
+      width: 100%;
+      height: 370px;
+      object-fit: contain;
+    }
+    .img1 {
+      flex: 0.5;
+    }
+    .img2 {
+      flex: 0.25;
+    }
+    .img3 {
+      flex: 0.25;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @media only screen and (min-width: 950px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (min-width: 1300px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.products__title {
+  text-align: center;
+  margin: 50px;
+  & h2 {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    color: #111;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-transform: capitalize;
+  }
+  & img {
+    width: 60px;
+    height: 2px;
+    // margin-left: 583px;
+    margin-bottom: 10px;
+  }
+
+  & p {
+    margin-bottom: 50px;
+    color: #565656;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.01px;
+  }
+}
+
+.card {
+  max-width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.products__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  & img {
+    margin-right: 20px;
+  }
+}
+
+.new__products-title {
+  margin: 80px 0 50px;
+  text-align: center;
+  img {
+    margin: 17px 0 15px;
+  }
+  h2 {
+    color: #111;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.5px; /* 125% */
+    text-transform: capitalize;
+  }
+  p {
+    margin-bottom: 50px;
+    color: #565656;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.01px; /* 171.5% */
+  }
+}
+
+.blogs__head {
+  text-align: center;
+  margin-top: 64px;
+  h2 {
+    margin-bottom: 10px;
+    color: #111;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.5px; /* 125% */
+    text-transform: capitalize;
+  }
+  p {
+    margin: 10px 0 49px 0;
+    color: #565656;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.01px; /* 171.5% */
+  }
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  margin-bottom: 65px;
+  @media only screen and (min-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (min-width: 950px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media only screen and (min-width: 1300px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  h4 {
+    padding: 22px 0 10px;
+    color: #5a5ac9;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 175% */
+    text-transform: uppercase;
+  }
+  h3 {
+    padding-bottom: 16px;
+    color: #111;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    text-transform: capitalize;
+  }
+  & p {
+    color: #565656;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.01px; /* 171.5% */
+    text-transform: capitalize;
+  }
+  & span {
+    color: #5a5ac9;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.01px; /* 171.5% */
+    text-transform: capitalize;
+  }
+}
+
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 36px 0 35px;
+  border-top: 1px solid #ebebeb;
+}

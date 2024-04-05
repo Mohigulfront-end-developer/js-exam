@@ -1,0 +1,43 @@
+@use "../utils/variables" as var;
+
+@mixin title($size, $height, $spacing) {
+    font-size: $size + px;
+    font-weight: 700;
+    line-height: $height + px;
+    letter-spacing: $spacing + px;
+}
+@mixin dFlex($justify: space-between, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin sm {
+  @media only screen and (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width: 868px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media only screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media only screen and (min-width: 1536px) {
+    @content;
+  }
+}

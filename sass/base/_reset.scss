@@ -1,0 +1,22 @@
+@use "../utils/variables" as var;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: var.$primary-font;
+    font-family: var.$secondary-font;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+   
