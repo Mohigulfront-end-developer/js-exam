@@ -96,6 +96,8 @@ nav {
   align-items: center;
   gap: 53px;
 
+  
+
   & a {
     color: #111;
     text-align: center;
@@ -118,3 +120,13 @@ nav {
   align-items: center;
   gap: 30px;
 }
+
+@media screen and (max-width: 850px) {
+    .nav__bottom-list {
+      display: none;
+    }
+    .nav__top-phone{
+      display: none;
+    }
+    
+  }
